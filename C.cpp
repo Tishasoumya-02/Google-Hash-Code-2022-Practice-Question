@@ -34,16 +34,6 @@ int main(){
   like.erase( unique( like.begin(), like.end() ), like.end() );
   sort( dislike.begin(), dislike.end() );
   dislike.erase( unique( dislike.begin(), dislike.end() ), dislike.end() );
-    cout<<"OUTPUT\n";
-for(auto elem1 :like)
-{
-    cout<<elem1<<"\t";
-}
-    cout<<"OUTPUT\n";
-for(auto elem2 :dislike)
-{
-    cout<<elem2<<"\t";
-}
 
 for(auto elem:dislike)
 {
@@ -53,8 +43,8 @@ for(auto elem:dislike)
         like.erase(remove(like.begin(), like.end(), ele), like.end());
     }
 }
-   cout<<"OUTPUT\n";
-   cout<<like.size()<<"\t";
+
+cout<<like.size()<<"\t";
 for(auto e :like)
 {
     cout<<e<<"\t";
