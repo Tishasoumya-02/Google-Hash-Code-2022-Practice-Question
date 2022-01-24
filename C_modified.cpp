@@ -25,7 +25,6 @@ for(int i=0;i<N;i++){
      for(int j=0;j<dislike[i];j++){
             cin>>s;
             it=find(l.begin(),l.end(),s);
-
             //cout<<it;
             if(it!=l.end()){
                 index=it-l.begin();

@@ -19,11 +19,3 @@
 1 xveqd
 3 vxglq dlust byyii
 1 akuof
-
-
-like vector(string,distinct)-akuof byyii dlust  luncl vxglq  xveqd  qzfyo xdozp tfeej 
-dislike vector(string,distinct)-xdozp  qzfyo byyii sunhp qzfyo xveqd akuof
-
-
-1.If any dislike vector element is found in the like vector remove it from the like vector.
-2.Count the number of elements left in the like vector and print it along the vector.

@@ -1,12 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-#define all(x) x.begin(),x.end()
-
-vector<string> in[100009];
 
 int main(){
-    int N,t;
+    ll N,t;
     string s;
     cin>>N;
     t=N;
@@ -15,16 +12,16 @@ int main(){
     vector<string>like;
     vector<string>dislike;
  
-    for(int i=0;i<t;i++)
+    for(ll i=0;i<t;i++)
     {
         cin>>l[i];
-        for(int j=0;j<l[i];j++)
+        for(ll j=0;j<l[i];j++)
         {
             cin>>s;
             like.push_back(s);
         }
         cin>>d[i];
-        for(int j=0;j<d[i];j++)
+        for(ll j=0;j<d[i];j++)
         {
             cin>>s;
             dislike.push_back(s);
